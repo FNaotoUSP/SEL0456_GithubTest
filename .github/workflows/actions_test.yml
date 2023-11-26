@@ -30,4 +30,4 @@ jobs:
 
     - name: Run tests for branch2
       if: github.ref == 'refs/heads/branch2'
-      run: python -m pytest main.py
+      run: pytest main.py
